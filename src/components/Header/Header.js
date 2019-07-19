@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './header.css';
+import styles from './style';
 
 // Material UI
 import { AppBar } from '@material-ui/core';
@@ -10,7 +10,9 @@ class Header extends Component {
 
         return (
             <>
-                <AppBar>Test</AppBar>
+
+                    <AppBar style={styles}>Test</AppBar>
+
             </>
         )
     }
