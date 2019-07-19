@@ -1,0 +1,13 @@
+header{
+    background: url('../../images/mountains.jpg') center;
+    background-size: cover;
+    height: 280px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    animation: move-mountains 15s normal linear forwards;
+}
+
+@keyframes move-mountains {
+    50% { background-position: 0 0; }
+    100% { background-position: 0 0; }
+}
